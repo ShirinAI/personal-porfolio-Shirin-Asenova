@@ -22,7 +22,7 @@ body{
 }
 
 .navbar{
-  background-color: rgb(174, 85, 99, 1);
+  background-color: #b56576;
   height:80px;
   display:flex;
   justify-content:center;
@@ -55,7 +55,7 @@ body{
   display: flex;
   align-items: center;
   list-style:none;
-  background-color: #ae5563;
+  background-color: #b56576;
 }
 
 .navbar__item{
@@ -96,6 +96,7 @@ body{
   color:#fff;
 }
 
+
 .navbar__links:hover{
   color: black;
   transition: all 0.3 ease;
@@ -124,7 +125,7 @@ body{
   }
 
   .navbar__menu.active {
-    background: rgb(174, 85, 99, 1);
+    background: #b56576;
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
